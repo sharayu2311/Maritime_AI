@@ -8,6 +8,13 @@ import requests
 from difflib import get_close_matches
 from werkzeug.utils import secure_filename
 
+app = Flask(__name__)
+CORS(app)
+
+@app.route('/')
+def home():
+    return jsonify({"message": "Maritime AI Backend is running!"})
+
 # ---- External helpers that call free live APIs ----
 from api_helpers import get_port_coordinates, get_weather
 
