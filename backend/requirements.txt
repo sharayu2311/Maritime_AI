@@ -2,3 +2,10 @@ flask
 flask-cors
 PyMuPDF
 python-docx
+pdf2image
+requests
+werkzeug
+openai
+ollama
+pytesseract
+PyPDF2
