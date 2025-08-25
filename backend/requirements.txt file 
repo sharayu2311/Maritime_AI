@@ -1,7 +1,0 @@
-flask
-flask-cors
-pdf2image
-requests
-werkzeug
-openai
-ollama
