@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Mic, Send, Upload, Loader2 } from "lucide-react";
 import captainImg from "./captain.png";
 
-const DEFAULT_API = "http://localhost:8000";
+const DEFAULT_API = "https://maritime-ai.onrender.com";
 
 export default function App() {
   const [apiBase, setApiBase] = useState(DEFAULT_API);

@@ -23,7 +23,7 @@ import PyPDF2
 
 # ------------------ Flask Config ------------------
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://maritime-ai-frontend.onrender.com", "http://localhost:5173"])
 
 @app.route('/')
 def home():
